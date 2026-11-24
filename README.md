@@ -8,6 +8,12 @@
 
 </div>
 
+### 👋 关于我
+
+我是 Dr.626，关注测试开发与自动化测试，日常与 Python、Java、Web 打交道。
+
+这里记录我踩过的坑、总结的经验，也沉淀「AI 大模型」系列学习笔记。欢迎交流。
+
 ---
 
 ### 🛠 技能与工具
@@ -36,13 +42,13 @@
 <img src="https://github-readme-stats.vercel.app/api?username=stitch-top&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stitch-top&layout=compact&theme=radical&hide_border=true" alt="Top languages" />
 
-<img src="https://github-readme-streak-stats.demolab.com/?user=stitch-top&theme=radical&hide_border=true" alt="Streak stats" />
+<img src="https://streak-stats.demolab.com/?user=stitch-top&theme=radical&hide_border=true" alt="Streak stats" />
 
 </div>
 
 ---
 
-### 🧭 博客内容地图
+### 📚 博客文章
 
 站点共 7 个分类、58 篇文章。
 
@@ -66,6 +72,14 @@
 - **Web**：JavaScript 基础与进阶、DOM、BOM、ES6 特性
 - **数据库**：SQL、MQL
 - **逸文**：多数据库问题、MongoDB 连接
+
+**最近更新**
+
+- [F12 前端性能](https://stitch-top.github.io/2026/06/08/ce-shi-gong-ju/tt06-f12/tt03-f12-qian-duan-xing-neng/) · 2026-06-08
+- [Burp Suite（二）](https://stitch-top.github.io/2026/04/01/ce-shi-gong-ju/tt09-burp-suite/tt02-burp-suite-er/) · 2026-04-01
+- [Burp Suite（一）](https://stitch-top.github.io/2026/02/09/ce-shi-gong-ju/tt09-burp-suite/tt01-burp-suite-yi/) · 2026-02-09
+- [SQLMap 的使用](https://stitch-top.github.io/2025/12/22/ce-shi-gong-ju/tt08-sqlmap/tt01-sqlmap-de-shi-yong/) · 2025-12-22
+- [Servlet（三）](https://stitch-top.github.io/2025/11/27/java/java07-servlet-san/) · 2025-11-27
 
 </details>
 
@@ -105,16 +119,6 @@
 
 ---
 
-### 📝 最近更新
-
-- [F12 前端性能](https://stitch-top.github.io/2026/06/08/ce-shi-gong-ju/tt06-f12/tt03-f12-qian-duan-xing-neng/) · 2026-06-08
-- [Burp Suite（二）](https://stitch-top.github.io/2026/04/01/ce-shi-gong-ju/tt09-burp-suite/tt02-burp-suite-er/) · 2026-04-01
-- [Burp Suite（一）](https://stitch-top.github.io/2026/02/09/ce-shi-gong-ju/tt09-burp-suite/tt01-burp-suite-yi/) · 2026-02-09
-- [SQLMap 的使用](https://stitch-top.github.io/2025/12/22/ce-shi-gong-ju/tt08-sqlmap/tt01-sqlmap-de-shi-yong/) · 2025-12-22
-- [Servlet（三）](https://stitch-top.github.io/2025/11/27/java/java07-servlet-san/) · 2025-11-27
-
----
-
 ### 🐍 贡献格贪吃蛇
 
 <div align="center">
@@ -128,22 +132,12 @@
 
 </div>
 
----
-
-<div align="center">
-
-⭐️ 如果这份笔记对你有帮助，欢迎点个 Star
-
-© 2021 – 2026 Dr.626 · 保持好奇，持续记录
-
-</div>
-
 <!--
 维护说明：
 1. 本文件对应 Profile 仓库 stitch-top/stitch-top，会显示在主页 https://github.com/stitch-top。
-2. 文章数、分类数、最近文章更新时，同步修改「博客内容地图」和「最近更新」两节。
+2. 文章数、分类数、最近文章更新时，同步修改「博客文章」一节（分类表 + 折叠区里的最近更新清单）；该节已合并原「博客内容地图」和「最近更新」两个板块。
 3. 「AI 大模型系列」对应仓库 stitch-top/ai（公众号系列文章配套源码）；新文章发布后同步更新该模块的进度表和折叠清单，配套源码链接指向 ai 仓库 articles/ 下对应目录。
-4. 动态卡片依赖第三方服务（vercel.app / demolab.com）。若某张图不显示，直接删除对应 <img> 行即可，不影响其他内容。
+4. 动态卡片依赖第三方服务（vercel.app / demolab.com）。若某张图不显示，直接删除对应 <img> 行即可，不影响其他内容。连续天数卡片旧域名 github-readme-streak-stats.demolab.com 已失效，现用 streak-stats.demolab.com。
 5. 想换配色，把 stats 卡片 URL 里的 theme=radical 换成 github_dark / tokyonight / dracula 等。
 6. GitHub 会过滤 <style> 标签和 class，但 <div align="center">、<picture>、<img width> 和 <details> 可用。
 7. 贡献格贪吃蛇依赖 .github/workflows/snake.yml：建仓库时把该文件一并提交，并在 Settings → Actions → General → Workflow permissions 勾选 Read and write permissions，然后到 Actions 页手动 Run workflow 一次生成 output 分支；之后每日自动更新。
@@ -152,4 +146,5 @@
 10. 成就奖杯墙已移除；若以后获得 GitHub 成就（Pull Shark、Galaxy Brain 等），在「GitHub 数据」后加一行 <img src="https://github-profile-trophy.vercel.app/?username=stitch-top&theme=radical" alt="Trophies" /> 即可。
 11. 顶部链接用 emoji + 文字链接，刻意与「技能与工具」的图标徽章区分；如需换回徽章风格，参考旧版 for-the-badge 写法。
 12. 同目录残留的 me.gif / me.webp / banner.html / canvas-nest.js 为早期粒子连线方案的产物，README 已不再引用，可按需删除，不影响主页。
+13. 顶部「关于我」段落用左对齐纯文字，与上面居中的头像/tagline 形成主次；改写时保持 2-3 行、口语化，不堆叠经历。
 -->
