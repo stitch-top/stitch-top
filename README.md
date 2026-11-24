@@ -39,8 +39,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=stitch-top&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats" height="200" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stitch-top&layout=compact&theme=radical&hide_border=true" alt="Top languages" height="200" />
+<img src="https://github-readme-stats.vercel.app/api?username=stitch-top&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats" width="407" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stitch-top&layout=compact&theme=radical&hide_border=true" alt="Top languages" width="364" />
 
 <img src="https://streak-stats.demolab.com/?user=stitch-top&theme=radical&hide_border=true" alt="Streak stats" />
 
@@ -140,11 +140,12 @@
 4. 动态卡片依赖第三方服务（vercel.app / demolab.com）。若某张图不显示，直接删除对应 <img> 行即可，不影响其他内容。连续天数卡片旧域名 github-readme-streak-stats.demolab.com 已失效，现用 streak-stats.demolab.com。
 5. 想换配色，把 stats 卡片 URL 里的 theme=radical 换成 github_dark / tokyonight / dracula 等。
 6. GitHub 会过滤 <style> 标签和 class，但 <div align="center">、<picture>、<img width> 和 <details> 可用。
-7. 贡献格贪吃蛇依赖 .github/workflows/snake.yml：建仓库时把该文件一并提交，并在 Settings → Actions → General → Workflow permissions 勾选 Read and write permissions，然后到 Actions 页手动 Run workflow 一次生成 output 分支；之后每日自动更新。
-8. 若贪吃蛇图片不显示，检查 output 分支是否存在、Actions 任务是否成功；也可删掉「贡献格贪吃蛇」整节，不影响其他内容。
-9. 贪吃蛇图片是 output 分支的远程地址，本地预览也走网络；仓库未建或未跑 workflow 时本地显示裂图属正常。VSCode 对 <picture>/<source> 支持有限，但会显示 <img> 的亮色图。
-10. 成就奖杯墙已移除；若以后获得 GitHub 成就（Pull Shark、Galaxy Brain 等），在「GitHub 数据」后加一行 <img src="https://github-profile-trophy.vercel.app/?username=stitch-top&theme=radical" alt="Trophies" /> 即可。
-11. 顶部链接用 emoji + 文字链接，刻意与「技能与工具」的图标徽章区分；如需换回徽章风格，参考旧版 for-the-badge 写法。
-12. 同目录残留的 me.gif / me.webp / banner.html / canvas-nest.js 为早期粒子连线方案的产物，README 已不再引用，可按需删除，不影响主页。
-13. 顶部「关于我」段落用左对齐纯文字，与上面居中的头像/tagline 形成主次；改写时保持 2-3 行、口语化，不堆叠经历。
+7. 【卡片等高】不要用 height 属性——GitHub 会注入 style="height:auto;max-height:..."，把 height 抵消掉，两张卡仍按原始比例显示（stats 467×195、top-langs 300×140，比例不同故不等高）。正确做法是用 width：设相同高度 H 时，stats 宽 ≈ H×467/195、top-langs 宽 ≈ H×300/140。当前 H≈170 → 分别 width="407" 和 width="364"，两卡等高且同排。改尺寸时按此公式换算，别填一样的 width。
+8. 贡献格贪吃蛇依赖 .github/workflows/snake.yml：建仓库时把该文件一并提交，并在 Settings → Actions → General → Workflow permissions 勾选 Read and write permissions，然后到 Actions 页手动 Run workflow 一次生成 output 分支；之后每日自动更新。
+9. 若贪吃蛇图片不显示，检查 output 分支是否存在、Actions 任务是否成功；也可删掉「贡献格贪吃蛇」整节，不影响其他内容。
+10. 贪吃蛇图片是 output 分支的远程地址，本地预览也走网络；仓库未建或未跑 workflow 时本地显示裂图属正常。VSCode 对 <picture>/<source> 支持有限，但会显示 <img> 的亮色图。
+11. 成就奖杯墙已移除；若以后获得 GitHub 成就（Pull Shark、Galaxy Brain 等），在「GitHub 数据」后加一行 <img src="https://github-profile-trophy.vercel.app/?username=stitch-top&theme=radical" alt="Trophies" /> 即可。
+12. 顶部链接用 emoji + 文字链接，刻意与「技能与工具」的图标徽章区分；如需换回徽章风格，参考旧版 for-the-badge 写法。
+13. 同目录残留的 me.gif / me.webp / banner.html / canvas-nest.js 为早期粒子连线方案的产物，README 已不再引用，可按需删除，不影响主页。
+14. 顶部「关于我」段落用左对齐纯文字，与上面居中的头像/tagline 形成主次；改写时保持 2-3 行、口语化，不堆叠经历。
 -->
